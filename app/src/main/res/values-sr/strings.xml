@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Playlist Maker</string>
+    <string name="txt_titleQuestion">Pitanije:</string>
+    <string name="txt_numQuestion">2/10</string>
+    <string name="act_main_btn_search_name">Pregraga</string>
+    <string name="act_main_btn_media_library_name">Mediateka</string>
+    <string name="act_main_btn_settings_name">Podešavanja</string>
+    <string name="act_set_txt_back">Nazad</string>
+    <string name="act_set_theme_dark">Мрачна тема</string>
+    <string name="act_set_app_share">Deli aplikaciju</string>
+    <string name="act_set_write_support">Pišite podršci</string>
+    <string name="act_set_user_agree">Pravila korištenja</string>
+</resources>

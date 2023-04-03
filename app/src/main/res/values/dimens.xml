@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="act_main_btn_margin_left_right">17sp</dimen>
+    <dimen name="act_main_size_head_txt">20sp</dimen>
+    <dimen name="act_set_size_head_txt">22sp</dimen>
+    <dimen name="act_set_size_item_txt">16sp</dimen>
+    <dimen name="act_set_margin_left_head">20sp</dimen>
+    <dimen name="act_set_margin_left_items">16sp</dimen>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/act_set_color_bg"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/act_set_margin_left_head"
+        android:paddingEnd="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/ico_back"
+            android:gravity="top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="28dp"
+            android:paddingEnd="0dp"
+            android:text="@string/act_set_txt_back"
+            android:textColor="@color/act_set_color_head"
+            android:textSize="@dimen/act_set_size_head_txt"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="56dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="@dimen/act_set_margin_left_items"
+            android:paddingEnd="0dp"
+            android:text="@string/act_set_theme_dark"
+            android:textColor="@color/act_set_color_item"
+            android:textSize="@dimen/act_set_size_item_txt" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:minHeight="48dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="18dp" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="@dimen/act_set_margin_left_items"
+            android:paddingEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:text="@string/act_set_app_share"
+            android:textColor="@color/act_set_color_item"
+            android:textSize="@dimen/act_set_size_item_txt" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="34dp"
+            android:src="@drawable/ico_share"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="@dimen/act_set_margin_left_items"
+            android:paddingEnd="0dp"
+            android:text="@string/act_set_write_support"
+            android:textColor="@color/act_set_color_item"
+            android:textSize="@dimen/act_set_size_item_txt" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="34dp"
+            android:src="@drawable/ico_support"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="@dimen/act_set_margin_left_items"
+            android:paddingEnd="0dp"
+            android:text="@string/act_set_user_agree"
+            android:textColor="@color/act_set_color_item"
+            android:textSize="@dimen/act_set_size_item_txt" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="34dp"
+            android:src="@drawable/ico_user_agreement"/>
+    </FrameLayout>
+
+</LinearLayout>
