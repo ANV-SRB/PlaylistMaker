@@ -21,13 +21,14 @@
             android:gravity="top" />
 
         <TextView
+            android:id="@+id/asBtnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="28dp"
             android:paddingEnd="0dp"
             android:text="@string/act_set_txt_back"
             android:textColor="@color/act_set_color_head"
-            android:textSize="@dimen/act_set_size_head_txt"/>
+            android:textSize="@dimen/act_set_size_head_txt" />
     </FrameLayout>
 
     <FrameLayout
