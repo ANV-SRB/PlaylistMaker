@@ -16,16 +16,11 @@ class MainActivity : AppCompatActivity() {
         val amBtnMediaId = findViewById<Button>(R.id.amBtnMedia)
         val amBtnSettingsId = findViewById<Button>(R.id.amBtnSettings)
 
-        //val toastAmBtnFindId = Toast.makeText(this@MainActivity, "Нажали на Поиск!", Toast.LENGTH_SHORT)
-       // val toastAmBtnMediaId = Toast.makeText(this@MainActivity, "Нажали на Медиатека!", Toast.LENGTH_LONG)
-        //val toastAmBtnSettingsId = Toast.makeText(this@MainActivity, "Нажали на Настройки!", Toast.LENGTH_SHORT)
-
 
         amBtnSearchId.setOnClickListener {
             val activitySearchIntentOpen = Intent(this, SearchActivity::class.java)
             startActivity(activitySearchIntentOpen)
         }
-
 
         amBtnSettingsId.setOnClickListener {
             val activitySettingIntentOpen = Intent(this, SettingsActivity::class.java)
